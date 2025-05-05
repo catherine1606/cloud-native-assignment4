@@ -36,3 +36,15 @@ R12725040_assignment01/
 ```
 ./run.sh
 ```
+
+## Docker Build
+```
+docker build -t catherine1606/2025cloud:v1 .
+docker login
+docker push catherine1606/2025cloud:v1
+```
+
+## Docker Run
+```
+docker run --rm catherine1606/2025cloud:v1
+```
